@@ -6,7 +6,7 @@ from torch.utils.data import random_split
 from torchvision import transforms
 from torchvision.datasets import MNIST
 from torch.utils.data import Dataset
-from quantum_perceptron.quantum_perceptron_circuit3 import QuantumPerceptron
+from quantum_perceptron.quantum_perceptron_circuit3 import QuantumPerceptron # Choose the circuit
 import sys
 import numpy
 import json
