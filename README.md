@@ -1,2 +1,2 @@
 # qml_MNIST
-Full-Quantum binary Image Classifier for MNIST
+Full-Quantum binary Image Classifier for MNIST database
