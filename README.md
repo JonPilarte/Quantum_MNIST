@@ -3,8 +3,7 @@
 • Trained different Q-Neural Network configurations on a 27-qubit IBM Q-computer <br />
 • Explored entanglement, addressed decoherence issues and studied probabilistic measurements <br />
 # MNIST Image dataset
-![State of art 1](https://github.com/JonPilarte/quantum_MNIST/assets/98784746/6937364d-48c4-41f1-a297-a6b99f22eded) ![Uploading Bloch Sphere 2.png…]()
-
+![State of art 1](https://github.com/JonPilarte/quantum_MNIST/assets/98784746/6937364d-48c4-41f1-a297-a6b99f22eded) ![Bloch Sphere 2](https://github.com/JonPilarte/Quantum_MNIST/assets/98784746/6e52a9b3-9b10-4fc0-80af-6fcffeac019d)
 # IBM Kolkata - 27 qubit quantum computer
 ![IBM_Kolkata_Original](https://github.com/JonPilarte/quantum_MNIST/assets/98784746/bf1dd79d-187e-40d4-b096-e92e4ed6a18e)
 # Circuit 1
