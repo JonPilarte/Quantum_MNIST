@@ -1,7 +1,7 @@
 # Full-Quantum binary Image Classifier for MNIST database
-• Compared two final Pipelines, one with an 85% lower computational cost than the other <br />
-• Pipeline 1 outperformed Pipeline 2 when provided with equal computational resources <br />
-• Obtained 99% accuracy and achieved superior results with less training generations (5 vs 15) <br />
+• Designed different circuits using Qiskit entering 784-pixel information of MNIST database images <br />
+• Trained different Q-Neural Network configurations on a 27-qubit IBM Q-computer <br />
+• Explored entanglement, addressed decoherence issues and studied probabilistic measurements <br />
 # MNIST Image dataset
 ![State of art 1](https://github.com/JonPilarte/quantum_MNIST/assets/98784746/6937364d-48c4-41f1-a297-a6b99f22eded)
 # IBM Kolkata - 27 qubit quantum computer
