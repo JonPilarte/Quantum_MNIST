@@ -44,7 +44,7 @@ class my_L2Loss(Loss): # Computes the L2 loss (i.e. Squared Error) for each samp
 
     def gradient(self, predict: np.ndarray, target: np.ndarray) -> np.ndarray:
         self._validate_shapes(predict, target)
-        return 2 * (predict - target) 
+        return 2 * (predict - target) #Vanilla Gradient Descent (could be replaced by other gradients) 
 
 
 class QuantumPerceptron:
@@ -242,7 +242,7 @@ class QuantumPerceptron:
                              input_params=self.data_params,
                              weight_params=self.trainable_params,
                              exp_val=p_exp,
-                             gradient=Gradient(),
+                             gradient=Gradient(), #Gradient
                              quantum_instance=self.q_instance)
 
         if self.learning_rate:

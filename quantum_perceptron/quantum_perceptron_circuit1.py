@@ -33,11 +33,11 @@ class my_L2Loss(Loss):
         self._validate_shapes(predict, target)
 
         if len(predict.shape) <= 1:
-            aux = (predict - target) ** 2
+            aux = -(predict - target) ** 2
             my_L2Loss.__loss_values__.append(aux)
             return aux
         else:
-            aux = np.linalg.norm(predict - target, axis=tuple(range(1, len(predict.shape)))) ** 2
+            aux = -np.linalg.norm(predict - target, axis=tuple(range(1, len(predict.shape)))) ** 2
             if verbose:
                 print('Loss call: #', my_L2Loss.__epoch__)
                 print('Average loss: ', np.mean(aux))
@@ -51,7 +51,7 @@ class my_L2Loss(Loss):
 
     def gradient(self, predict: np.ndarray, target: np.ndarray) -> np.ndarray:
         self._validate_shapes(predict, target)
-        return 2 * (predict - target)
+        return 2 * (predict - target) #Vanilla Gradient Descent (could be replaced by other gradients)
 
 
 class QuantumPerceptron:
